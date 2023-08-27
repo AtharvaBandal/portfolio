@@ -111,7 +111,7 @@ export const Navbar = () => {
                 </li>
             
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[1px] duration-300 bg-[#3a4658]'> 
-                    <a className='flex justify-between items-center w-full text-gray-300 ' href="/">Resume 
+                    <a className='flex justify-between items-center w-full text-gray-300 ' href="https://www.canva.com/design/DAFpqDIRDVE/kDJKxM8ucw9cEp6IGavxgw/view?utm_content=DAFpqDIRDVE&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel">Resume 
                         <BsFillPersonLinesFill className='' size={25} />
                     </a>
                     
