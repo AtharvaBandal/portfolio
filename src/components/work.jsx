@@ -1,6 +1,7 @@
 import React from 'react'
 import natours from '../assets/natours.png';
 import talk from '../assets/talk.png';
+import byte from '../assets/byte.png'
 const Work = () => {
   return (
     <div name='projects' className=' w-full md:h-screen bg-[#0a192f] text-gray-300'>
@@ -61,6 +62,28 @@ const Work = () => {
                     </div>
                 </div>
 
+                <div 
+                    style={{ backgroundImage: `url(${byte})`}}  
+                    className='shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto content-div'
+                >
+                    {/* Hover effect */}
+
+                    <div className='opacity-0 group-hover:opacity-100'>   
+                        {/* <span className='text-2xl font-bold text-black tracking-wider '>
+                            Tour application
+                        </span> */}
+                        
+                        <div className='pt-[190px]  md:pt-[150px] text-center'>
+                            <a href="https://byte-solvers.netlify.app/questions">
+                                <button className='text-center px-4 rounded-lg py-3 m-2 bg-[#040c16] font-bold text-lg text-gray-100'>Explore</button>
+                            </a>
+
+                            <a href="https://github.com/AtharvaBandal/byte-solver-backend">
+                                <button className='text-center px-4 rounded-lg py-3 m-2 bg-white font-bold text-lg text-gray-800'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                  
 
                 
