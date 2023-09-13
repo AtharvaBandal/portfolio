@@ -74,7 +74,7 @@ const Work = () => {
                         </span> */}
                         
                         <div className='pt-[190px]  md:pt-[150px] text-center'>
-                            <a href="https://byte-solvers.netlify.app/questions">
+                            <a href="https://byte-solvers.netlify.app/">
                                 <button className='text-center px-4 rounded-lg py-3 m-2 bg-[#040c16] font-bold text-lg text-gray-100'>Explore</button>
                             </a>
 
